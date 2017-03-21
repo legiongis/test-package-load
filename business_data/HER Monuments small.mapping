@@ -1,0 +1,367 @@
+{
+    "resource_model_id": "141da5f8-0b41-11e7-8631-6c4008b05c4c", 
+    "resource_model_name": "HER Monuments (Workshop)", 
+    "nodes": [
+        {
+            "arches_nodeid": "14201240-0b41-11e7-aa09-6c4008b05c4c", 
+            "arches_node_name": "Address Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201ebd-0b41-11e7-93fd-6c4008b05c4c", 
+            "arches_node_name": "Administrative Subdivision Name", 
+            "file_field_name": "", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14202761-0b41-11e7-8e3b-6c4008b05c4c", 
+            "arches_node_name": "Administrative Subdivision Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203cab-0b41-11e7-8620-6c4008b05c4c", 
+            "arches_node_name": "Ancilary Feature To Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "142035f0-0b41-11e7-aacb-6c4008b05c4c", 
+            "arches_node_name": "Ancillary Feature Cultural Period", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14200c6b-0b41-11e7-941e-6c4008b05c4c", 
+            "arches_node_name": "Ancillary Feature From Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201342-0b41-11e7-a899-6c4008b05c4c", 
+            "arches_node_name": "Ancillary Feature Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "141f9d05-0b41-11e7-979f-6c4008b05c4c", 
+            "arches_node_name": "Cadastral Reference", 
+            "file_field_name": "", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420105c-0b41-11e7-af26-6c4008b05c4c", 
+            "arches_node_name": "Component Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14202666-0b41-11e7-8b8f-6c4008b05c4c", 
+            "arches_node_name": "Construction Technique", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203bcc-0b41-11e7-a620-6c4008b05c4c", 
+            "arches_node_name": "Description", 
+            "file_field_name": "DESCRIPTION", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203457-0b41-11e7-8adb-6c4008b05c4c", 
+            "arches_node_name": "Description Type", 
+            "file_field_name": "DESCRIPTION_TYPE", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420245e-0b41-11e7-8d96-6c4008b05c4c", 
+            "arches_node_name": "Designation or Protection From Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "142020a6-0b41-11e7-bdf2-6c4008b05c4c", 
+            "arches_node_name": "Designation or Protection Reference", 
+            "file_field_name": "REFERENCE", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14202291-0b41-11e7-b0f1-6c4008b05c4c", 
+            "arches_node_name": "Designation or Protection To Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203945-0b41-11e7-9812-6c4008b05c4c", 
+            "arches_node_name": "End Date Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201805-0b41-11e7-a2cd-6c4008b05c4c", 
+            "arches_node_name": "End Date of Existence", 
+            "file_field_name": "TAQ", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420161c-0b41-11e7-8bbd-6c4008b05c4c", 
+            "arches_node_name": "External Identifier Type", 
+            "file_field_name": "MONNO_TYPE", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14202c2e-0b41-11e7-992b-6c4008b05c4c", 
+            "arches_node_name": "External Source", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "domain-value", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "141f9759-0b41-11e7-b142-6c4008b05c4c", 
+            "arches_node_name": "External XRef", 
+            "file_field_name": "MONNO", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201aeb-0b41-11e7-a765-6c4008b05c4c", 
+            "arches_node_name": "Geometry Qualifier", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "141febd9-0b41-11e7-85fa-6c4008b05c4c", 
+            "arches_node_name": "Keyword", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420114c-0b41-11e7-9ebc-6c4008b05c4c", 
+            "arches_node_name": "Material", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203035-0b41-11e7-a641-6c4008b05c4c", 
+            "arches_node_name": "Measurement Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203873-0b41-11e7-bbb5-6c4008b05c4c", 
+            "arches_node_name": "Measurement Unit", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201521-0b41-11e7-850a-6c4008b05c4c", 
+            "arches_node_name": "Measurement Value", 
+            "file_field_name": "", 
+            "data_type": "number", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201717-0b41-11e7-8555-6c4008b05c4c", 
+            "arches_node_name": "Metadata Description", 
+            "file_field_name": "", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201be3-0b41-11e7-ad97-6c4008b05c4c", 
+            "arches_node_name": "Modification Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "142018f5-0b41-11e7-9169-6c4008b05c4c", 
+            "arches_node_name": "Modification Description", 
+            "file_field_name": "", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14201cd4-0b41-11e7-a2ce-6c4008b05c4c", 
+            "arches_node_name": "Modification Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420337a-0b41-11e7-8553-6c4008b05c4c", 
+            "arches_node_name": "Monument Type", 
+            "file_field_name": "TYPE_Valueid", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14200f63-0b41-11e7-80d6-6c4008b05c4c", 
+            "arches_node_name": "Monument Type Cultural Period", 
+            "file_field_name": "CP_Valueid", 
+            "concept_export_value": "label", 
+            "data_type": "concept-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "142032a8-0b41-11e7-a78c-6c4008b05c4c", 
+            "arches_node_name": "Monument Type From Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203107-0b41-11e7-96c7-6c4008b05c4c", 
+            "arches_node_name": "Monument Type To Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "141f9138-0b41-11e7-95f4-6c4008b05c4c", 
+            "arches_node_name": "Name", 
+            "file_field_name": "MONNAMEQ", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "142019f0-0b41-11e7-801c-6c4008b05c4c", 
+            "arches_node_name": "Name Type", 
+            "file_field_name": "NAME_TYPE", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "141fa857-0b41-11e7-a47b-6c4008b05c4c", 
+            "arches_node_name": "Place Address", 
+            "file_field_name": "", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14202a42-0b41-11e7-a02b-6c4008b05c4c", 
+            "arches_node_name": "Place Description", 
+            "file_field_name": "", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420003a-0b41-11e7-9059-6c4008b05c4c", 
+            "arches_node_name": "Record Type", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "domain-value", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203af0-0b41-11e7-a640-6c4008b05c4c", 
+            "arches_node_name": "Spatial Accuraccy", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420055c-0b41-11e7-b8cd-6c4008b05c4c", 
+            "arches_node_name": "Spatial Coordinates Geometry", 
+            "file_field_name": "WKT", 
+            "data_type": "geojson-feature-collection", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "142031d9-0b41-11e7-bd3f-6c4008b05c4c", 
+            "arches_node_name": "Start Date Type", 
+            "file_field_name": "TPQ_TYPE", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "1420285c-0b41-11e7-901d-6c4008b05c4c", 
+            "arches_node_name": "Start Date of Existence", 
+            "file_field_name": "TPQ", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203d85-0b41-11e7-9424-6c4008b05c4c", 
+            "arches_node_name": "Style", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14203a1e-0b41-11e7-ba4e-6c4008b05c4c", 
+            "arches_node_name": "Style Cultural Period", 
+            "file_field_name": "", 
+            "concept_export_value": "label", 
+            "data_type": "concept-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14200b05-0b41-11e7-8ab9-6c4008b05c4c", 
+            "arches_node_name": "Style From Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "142036cf-0b41-11e7-a122-6c4008b05c4c", 
+            "arches_node_name": "Style To Date", 
+            "file_field_name": "", 
+            "data_type": "date", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "14202d28-0b41-11e7-ba2e-6c4008b05c4c", 
+            "arches_node_name": "Type of Designation or Protection", 
+            "file_field_name": "DES_Valueid", 
+            "concept_export_value": "label", 
+            "data_type": "concept", 
+            "export": false
+        }
+    ]
+}
