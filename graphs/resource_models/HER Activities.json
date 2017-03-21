@@ -4,26 +4,6 @@
             "subtitle": "Describes activities relating to heritage resources and heritage resource groups.", 
             "functions_x_graphs": [
                 {
-                    "graph_id": "ab74af76-fa0e-11e6-9e3e-026d961c88e6", 
-                    "function_id": "60000000-0000-0000-0000-000000000001", 
-                    "config": {
-                        "map_popup": {
-                            "string_template": "<Description>", 
-                            "nodegroup_id": "ab74af95-fa0e-11e6-9e3e-026d961c88e6"
-                        }, 
-                        "name": {
-                            "string_template": "<Name>", 
-                            "nodegroup_id": "677f303d-09cc-11e7-9aa6-6c4008b05c4c"
-                        }, 
-                        "triggering_nodegroups": [], 
-                        "description": {
-                            "string_template": "<Description>,  <Description Type>", 
-                            "nodegroup_id": "ab74af95-fa0e-11e6-9e3e-026d961c88e6"
-                        }
-                    }, 
-                    "id": "d3d32d9d-0aa7-11e7-a04b-026d961c88e6"
-                }, 
-                {
                     "graph_id": "bbc5cee8-fa16-11e6-9e3e-026d961c88e6", 
                     "function_id": "60000000-0000-0000-0000-000000000001", 
                     "config": {
@@ -42,26 +22,6 @@
                         }
                     }, 
                     "id": "30ee6905-0e59-11e7-a04b-026d961c88e6"
-                }, 
-                {
-                    "graph_id": "0844832e-fa1f-11e6-9e3e-026d961c88e6", 
-                    "function_id": "60000000-0000-0000-0000-000000000001", 
-                    "config": {
-                        "map_popup": {
-                            "string_template": "<Description>", 
-                            "nodegroup_id": "08448344-fa1f-11e6-9e3e-026d961c88e6"
-                        }, 
-                        "name": {
-                            "string_template": "<Title>", 
-                            "nodegroup_id": "08448338-fa1f-11e6-9e3e-026d961c88e6"
-                        }, 
-                        "triggering_nodegroups": [], 
-                        "description": {
-                            "string_template": "<Description>", 
-                            "nodegroup_id": "08448344-fa1f-11e6-9e3e-026d961c88e6"
-                        }
-                    }, 
-                    "id": "399662a2-0e59-11e7-a04b-026d961c88e6"
                 }
             ], 
             "mapfeaturecolor": "#FF0000", 
