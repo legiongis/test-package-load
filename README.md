@@ -14,11 +14,6 @@ be sure to run the script from the root folder of this repo
 
 here are some application settings you'll probably want to use (add to your `settings_local.py`):
 ```
-SEARCH_ITEMS_PER_PAGE = 15
-SEARCH_EXPORT_ITEMS_PER_PAGE = 100000
-SEARCH_DROPDOWN_LENGTH = 100
-WORDS_PER_SEARCH_TERM = 10
-
 DEFAULT_MAP_Y = 53.24
 DEFAULT_MAP_X = -0.55735
 DEFAULT_MAP_ZOOM = 10
