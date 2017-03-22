@@ -1,8 +1,18 @@
 # her-data
-HER data for Lincoln
 
-You can use config_liverpool.sh to build Arches (setup_db, load RDM concepts, collections, and the HER branches/models), and also load a series of overlays for Arches.
+## setup
 
-After running config_liverpool.sh, you can run config_import_liverpool.sh to load business data into Arches.
+run:
+```
+chmod u+x load_data.sh
+```
 
-You'll want to run both scripts from your Arches virtual environment!
+## load data
+activate your virtual environment, then run:
+```
+./load_data.sh
+```
+
+it will prompt you for a path to your arches repo (path can be relative)
+
+be sure to run the script from the root folder of this repo
