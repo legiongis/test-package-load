@@ -1,15 +1,8 @@
 #!/bin/bash
 
+eval HERPATH=$PWD
 read -e -p "Enter the path to arches: " ARCHESPATH
 eval ARCHESPATH=$ARCHESPATH
-read -e -p "Enter the path to her-data: " HERPATH
-eval HERPATH=$HERPATH
-cd $ARCHESPATH
-eval ARCHESPATH=$PWD
-cd -
-cd $HERPATH
-eval HERPATH=$PWD
-
 cd $ARCHESPATH
 
 # Rebuild db
