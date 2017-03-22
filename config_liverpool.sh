@@ -16,32 +16,32 @@ python manage.py packages -o setup_db
 echo "  "
 echo "  "
 echo "Loading Arches concepts for Liverpool..."
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/arches_liverpool_concepts.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/arches_liverpool_concepts.xml' -ow overwrite -st keep
 #
 #
 #
 echo "  "
 echo "  "
 echo "Loading HER Liverpool concepts..."
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/Lincoln_Additional_Schemes.xml' -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/Lincoln_dm_Type.xml' -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/Lincoln_HER_Designation_Type.xml' -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/Lincoln_HER_Period_Type.xml' -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/Lincoln_Monument_Types_v4.xml' -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/Lincoln_Recording_Event_Type.xml' -ow overwrite -st keep
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/Lincoln_Source_Type.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/Lincoln_Additional_Schemes.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/Lincoln_dm_Type.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/Lincoln_HER_Designation_Type.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/Lincoln_HER_Period_Type.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/Lincoln_Monument_Types_v4.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/Lincoln_Recording_Event_Type.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/Lincoln_Source_Type.xml' -ow overwrite -st keep
 #
 #
 #
 echo "  "
 echo "  "
 echo "Loading Arches dropdowns for Liverpool..."
-python manage.py packages -o import_reference_data -s '../her_data/reference_data/arches_liverpool_collections.xml' -ow overwrite -st keep
+python manage.py packages -o import_reference_data -s '../her/reference_data/arches_liverpool_collections.xml' -ow overwrite -st keep
 #
 #
 #
 #
-# Load Arches "Default" Resource Models, Branches
+# Load Resource Models, Branches
 ##echo "  "
 ##echo "  "
 ##echo "Loading Arches resource models..."
@@ -59,8 +59,8 @@ python manage.py packages -o import_graphs -s 'arches/db/graphs/branches'
 echo "  "
 echo "  "
 echo "Loading Lincoln resource and branches..."
-python manage.py packages -o import_graphs -s '../her_data/graphs/branches/'
-python manage.py packages -o import_graphs -s '../her_data/graphs/resource_models/'
+python manage.py packages -o import_graphs -s '../her/graphs/branches/'
+python manage.py packages -o import_graphs -s '../her/graphs/resource_models/'
 #
 #
 #
