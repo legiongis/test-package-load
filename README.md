@@ -1,12 +1,5 @@
 # her-data
 
-## setup
-
-run:
-```
-chmod u+x load_data.sh
-```
-
 ## load data
 activate your virtual environment, then run:
 ```
