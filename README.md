@@ -12,7 +12,7 @@ be sure to run the script from the root folder of this repo
 
 ## configuration
 
-here are some application settings you'll probably want to use:
+here are some application settings you'll probably want to use (add to your `settings_local.py`):
 ```
 SEARCH_ITEMS_PER_PAGE = 15
 SEARCH_EXPORT_ITEMS_PER_PAGE = 100000
