@@ -5,7 +5,7 @@
         {
             "arches_nodeid": "2f8a5998-fa2b-11e6-9e3e-026d961c88e6", 
             "arches_node_name": "Actor Type", 
-            "file_field_name": "ACTOR_TYPE", 
+            "file_field_name": "", 
             "concept_export_value": "label", 
             "data_type": "concept", 
             "export": false
