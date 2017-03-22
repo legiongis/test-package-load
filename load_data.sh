@@ -41,7 +41,7 @@ python manage.py packages -o add_tileserver_layer -m $HERPATH/tilestache/town_pl
 python manage.py packages -o add_tileserver_layer -m arches/tileserver/hillshade.xml -n "Hillshade"
 
 # Load Business Data
-python manage.py packages -o import_business_data -s $HERPATH/business_data/HER Activities_master.csv -c $HERPATH/business_data/HER Activities.mapping -ow overwrite -bulk
-python manage.py packages -o import_business_data -s $HERPATH/business_data/HER Information Assets.csv -c $HERPATH/business_data/HER Information Assets.mapping -ow overwrite -bulk
-python manage.py packages -o import_business_data -s $HERPATH/business_data/HER Monuments Workshop.csv -c $HERPATH/business_data/HER Monuments.mapping -ow overwrite -bulk
-python manage.py packages -o import_business_data -s $HERPATH/business_data/HER Actors_master.csv -c $HERPATH/business_data/HER Actors.mapping -ow overwrite -bulk
+python manage.py packages -o import_business_data -s $HERPATH/business_data/HER\ Activities_master.csv -c $HERPATH/business_data/HER\ Activities.mapping -ow overwrite -bulk
+python manage.py packages -o import_business_data -s $HERPATH/business_data/HER\ Information Assets.csv -c $HERPATH/business_data/HER\ Information Assets.mapping -ow overwrite -bulk
+python manage.py packages -o import_business_data -s $HERPATH/business_data/HER\ Monuments Workshop.csv -c $HERPATH/business_data/HER\ Monuments.mapping -ow overwrite -bulk
+python manage.py packages -o import_business_data -s $HERPATH/business_data/HER\ Actors_master.csv -c $HERPATH/business_data/HER\ Actors.mapping -ow overwrite -bulk
