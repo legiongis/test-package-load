@@ -14,6 +14,11 @@ be sure to run the script from the root folder of this repo
 
 here are some application settings you'll probably want to use:
 ```
+SEARCH_ITEMS_PER_PAGE = 15
+SEARCH_EXPORT_ITEMS_PER_PAGE = 100000
+SEARCH_DROPDOWN_LENGTH = 100
+WORDS_PER_SEARCH_TERM = 10
+
 CLUSTER_DISTANCE = 8
 CLUSTER_MAX_ZOOM = 5
 CLUSTER_MIN_POINTS = 5
