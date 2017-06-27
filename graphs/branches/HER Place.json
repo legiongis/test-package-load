@@ -499,7 +499,7 @@
                         ],
                         "overlayOpacity": 0,
                         "featurePointSize": "5",
-                        "geocodeProvider": "MapzenGeocoder",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
                         "zoom": 11.068933439076746,
                         "label": "",
                         "featureLineWidth": 1,
@@ -778,7 +778,7 @@
             ],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "65eea7a8-09ad-11e7-85fe-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -792,7 +792,7 @@
                     "name": "Ownership"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "65eea7a8-09ad-11e7-85fe-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -806,7 +806,7 @@
                     "name": "Description"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "65eea7a8-09ad-11e7-85fe-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -820,7 +820,7 @@
                     "name": "Addresses"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "65eea7a8-09ad-11e7-85fe-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -834,7 +834,7 @@
                     "name": "Map"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "65eea7a8-09ad-11e7-85fe-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -848,7 +848,7 @@
                     "name": "Administration Areas"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "65eea7a8-09ad-11e7-85fe-6c4008b05c4c",
                     "description": "Describes the physical location of a heritage resource or heritage resource group.  Includes extra nodes for cadastral information.\n\nRelates to Heritage Resource E18 with P53\nRelates to Heritage Resource Group E27 with P89\n",
                     "visible": true,
@@ -862,7 +862,7 @@
                     "name": "HER Place"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "65eea7a8-09ad-11e7-85fe-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
