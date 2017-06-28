@@ -2369,7 +2369,7 @@
                         ], 
                         "overlayOpacity": 0, 
                         "featurePointSize": 3, 
-                        "geocodeProvider": "MapzenGeocoder", 
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000", 
                         "zoom": 0, 
                         "label": "Spatial Coordinates Geometry", 
                         "featureLineWidth": 1, 
