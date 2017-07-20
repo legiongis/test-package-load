@@ -3,7 +3,6 @@
         {
             "subtitle": "Describes time span and type for a Historic Landscape Character Area",
             "functions_x_graphs": [],
-            "mapfeaturecolor": "#FF0000",
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -3422,8 +3421,6 @@
                     "description": null
                 }
             ],
-            "maplinewidth": 1,
-            "mappointsize": 3,
             "graphid": "6b74aa3c-feca-11e6-9e3e-026d961c88e6",
             "name": "HER HLCA Phase Type",
             "cards_x_nodes_x_widgets": [
@@ -3484,7 +3481,7 @@
             ],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "6b74aa3c-feca-11e6-9e3e-026d961c88e6",
                     "description": "Phase Type Assignments for Heritage Resource Group E27\n\nConnects via P92i",
                     "visible": true,
@@ -3498,7 +3495,7 @@
                     "name": "HER HLCA Phase Type"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "6b74aa3c-feca-11e6-9e3e-026d961c88e6",
                     "description": "",
                     "visible": true,

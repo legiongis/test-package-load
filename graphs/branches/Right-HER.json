@@ -3,7 +3,6 @@
         {
             "subtitle": "Captures information about special status, protection, or privileges afforded under law.",
             "functions_x_graphs": [],
-            "mapfeaturecolor": null,
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -1733,14 +1732,12 @@
                     "description": null
                 }
             ],
-            "maplinewidth": null,
-            "mappointsize": null,
             "graphid": "f7941160-fa10-11e6-9e3e-026d961c88e6",
             "name": "Right-HER",
             "cards_x_nodes_x_widgets": [],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6",
                     "description": "Captures information about special status, protection, or privileges afforded under law.\n\nApplies to: Heritage Resource, Heritage Resource Model",
                     "visible": true,
@@ -1754,7 +1751,7 @@
                     "name": "Right-HER"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6",
                     "description": "",
                     "visible": true,

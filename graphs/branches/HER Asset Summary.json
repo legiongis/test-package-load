@@ -3,7 +3,6 @@
         {
             "subtitle": "Asset identifiers",
             "functions_x_graphs": [],
-            "mapfeaturecolor": "#FF0000",
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -377,8 +376,6 @@
                     "description": null
                 }
             ],
-            "maplinewidth": 1,
-            "mappointsize": 3,
             "graphid": "c84bfff0-09c2-11e7-acdd-6c4008b05c4c",
             "name": "HER Asset Summary",
             "cards_x_nodes_x_widgets": [
@@ -525,7 +522,7 @@
             ],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "c84bfff0-09c2-11e7-acdd-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -539,7 +536,7 @@
                     "name": "Record Type"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "c84bfff0-09c2-11e7-acdd-6c4008b05c4c",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -553,7 +550,7 @@
                     "name": "Keyword"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "c84bfff0-09c2-11e7-acdd-6c4008b05c4c",
                     "description": "Start/End dates for resources.  Assumed to be typed and within calendar time. \n\nConnects to Activity (E7) and Historical Event (E5) resource models via P114\nConnects to Heritage Resource (E18) and Heritage Resource Group (E27) resource models via P12i\nConnects to Actor (E39) resource model via P11i",
                     "visible": true,
@@ -567,7 +564,7 @@
                     "name": "Existence"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "c84bfff0-09c2-11e7-acdd-6c4008b05c4c",
                     "description": "Represents a node and node type pairing",
                     "visible": true,
@@ -581,7 +578,7 @@
                     "name": "Node/Node Type"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "c84bfff0-09c2-11e7-acdd-6c4008b05c4c",
                     "description": "A branch meant to provide a workflow-based method of defining names, keywords, and existence information for an asset",
                     "visible": true,

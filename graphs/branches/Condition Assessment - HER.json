@@ -3,7 +3,6 @@
         {
             "subtitle": "Captures conditions, threats, and disturbances affecting a Heritage Resource or Heritage Resource Group",
             "functions_x_graphs": [],
-            "mapfeaturecolor": null,
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -175,8 +174,6 @@
                     "description": null
                 }
             ],
-            "maplinewidth": null,
-            "mappointsize": null,
             "graphid": "5efd6676-fd54-11e6-9e3e-026d961c88e6",
             "name": "Condition Assessment - HER",
             "cards_x_nodes_x_widgets": [

@@ -3,7 +3,6 @@
         {
             "subtitle": "Place branch for HER Find Model",
             "functions_x_graphs": [],
-            "mapfeaturecolor": "rgba(255,0.0,0.0,1.0)",
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -1621,8 +1620,6 @@
                     "description": null
                 }
             ],
-            "maplinewidth": 1,
-            "mappointsize": 4,
             "graphid": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
             "name": "Place-HER3",
             "cards_x_nodes_x_widgets": [
@@ -1638,7 +1635,7 @@
             ],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -1652,7 +1649,7 @@
                     "name": "Spatial Location"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "Describes the type of resource. \n\nApplies to: Heritage Group, Heritage",
                     "visible": true,
@@ -1666,7 +1663,7 @@
                     "name": "HER Record Type"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "Describes the physical location of a heritage resource or heritage resource group.  Includes extra nodes for cadastral information.\n\nRelates to Heritage Resource E18 with P53\nRelates to Heritage Resource Group E27 with P89\n",
                     "visible": true,
@@ -1680,7 +1677,7 @@
                     "name": "Place-HER3"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -1694,7 +1691,7 @@
                     "name": "Address"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -1708,7 +1705,7 @@
                     "name": "Administration Subdivision"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -1722,7 +1719,7 @@
                     "name": "Cadastral Reference"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -1736,7 +1733,7 @@
                     "name": "Description Location"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "e45ae0a4-fd46-11e6-9e3e-026d961c88e6",
                     "description": "The name of a resource.\n\nApplies to Heritage Resource, Heritage Resource Group, Activity, and Historical Event.  Actors receive their \"names\" from the Appellation branch.",
                     "visible": true,
