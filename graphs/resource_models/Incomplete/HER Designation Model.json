@@ -3,7 +3,6 @@
         {
             "subtitle": "Describes activities relating to the designation and protection of monuments",
             "functions_x_graphs": [],
-            "mapfeaturecolor": "#FF0000",
             "isresource": true,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -4304,14 +4303,12 @@
                     "description": null
                 }
             ],
-            "maplinewidth": 1,
-            "mappointsize": 3,
             "graphid": "83854270-fee4-11e6-9e3e-026d961c88e6",
             "name": "HER Designation Model",
             "cards_x_nodes_x_widgets": [],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Describes the type of resource. \n\nApplies to: Heritage Group, Heritage",
                     "visible": true,
@@ -4325,7 +4322,7 @@
                     "name": "HER Record Type"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -4339,7 +4336,7 @@
                     "name": "Address"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -4353,7 +4350,7 @@
                     "name": "Administration Subdivision"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Used to hold identifiers necessary to link a given resource to records in an external (perhaps legacy) system.",
                     "visible": true,
@@ -4367,7 +4364,7 @@
                     "name": "External Identifier"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i",
                     "visible": true,
@@ -4381,7 +4378,7 @@
                     "name": "Description"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -4395,7 +4392,7 @@
                     "name": "Spatial Location"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "",
                     "visible": true,
@@ -4409,7 +4406,7 @@
                     "name": " Designation or Protection "
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "",
                     "visible": true,
@@ -4423,7 +4420,7 @@
                     "name": "Designation and Protection"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Generic branch for capturing free-form written descriptive information.\nIntended to be evolution from v3 description branch from HIP 3. Created semantic description node with description string and description type hanging off of it. Description (semantic node) becomes a grouping node (type and string).  \n\nThis branch meets technical business rules for CRM compliance but CRM experts have said that this is an inappropriate implementation of E62.\n\nConnects to all resources with P140i",
                     "visible": true,
@@ -4437,7 +4434,7 @@
                     "name": "HER Code Assignment"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Represents a single node in a graph",
                     "visible": true,
@@ -4451,7 +4448,7 @@
                     "name": "Description Location"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Start/End dates for resources.  Assumed to be typed and within calendar time. \n\nConnects to Activity (E7) and Historical Event (E5) resource models via P114\nConnects to Heritage Resource (E18) and Heritage Resource Group (E27) resource models via P12i\nConnects to Actor (E39) resource model via P11i",
                     "visible": true,
@@ -4465,7 +4462,7 @@
                     "name": "Existence-Precision"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "Describes the physical location of an Activity or Historical Event. \n",
                     "visible": true,
@@ -4479,7 +4476,7 @@
                     "name": "Place-HER2"
                 },
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "83854270-fee4-11e6-9e3e-026d961c88e6",
                     "description": "The name of a resource.\n\nApplies to Heritage Resource, Heritage Resource Group, Activity, and Historical Event.  Actors receive their \"names\" from the Appellation branch.",
                     "visible": true,

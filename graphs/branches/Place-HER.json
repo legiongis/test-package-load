@@ -3,7 +3,6 @@
         {
             "subtitle": "Place branch for HER Monument Model",
             "functions_x_graphs": [],
-            "mapfeaturecolor": "rgba(255,0.0,0.0,1.0)",
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -560,8 +559,6 @@
                     "description": null
                 }
             ],
-            "maplinewidth": 1,
-            "mappointsize": 4,
             "graphid": "3aee704e-f972-11e6-9e3e-026d961c88e6",
             "name": "Place-HER",
             "cards_x_nodes_x_widgets": [],

@@ -3,7 +3,6 @@
         {
             "subtitle": "Beginning and End of Existence of a resource with Precision",
             "functions_x_graphs": [],
-            "mapfeaturecolor": "#FF0000",
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -2672,8 +2671,6 @@
                     "description": null
                 }
             ],
-            "maplinewidth": 1,
-            "mappointsize": 3,
             "graphid": "8238a3a4-f975-11e6-9e3e-026d961c88e6",
             "name": "Existence-Precision",
             "cards_x_nodes_x_widgets": [
@@ -2716,7 +2713,7 @@
             ],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "8238a3a4-f975-11e6-9e3e-026d961c88e6",
                     "description": "Start/End dates for resources.  Assumed to be typed and within calendar time. \n\nConnects to Activity (E7) and Historical Event (E5) resource models via P114\nConnects to Heritage Resource (E18) and Heritage Resource Group (E27) resource models via P12i\nConnects to Actor (E39) resource model via P11i",
                     "visible": true,

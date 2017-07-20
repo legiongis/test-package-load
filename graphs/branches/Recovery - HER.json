@@ -3,7 +3,6 @@
         {
             "subtitle": "Describes find recovery method",
             "functions_x_graphs": [],
-            "mapfeaturecolor": "#FF0000",
             "isresource": false,
             "forms_x_cards": [],
             "relatable_resource_model_ids": [],
@@ -3692,14 +3691,12 @@
                     "description": null
                 }
             ],
-            "maplinewidth": 1,
-            "mappointsize": 3,
             "graphid": "6a164a57-fd5d-11e6-9e3e-026d961c88e6",
             "name": "Recovery - HER",
             "cards_x_nodes_x_widgets": [],
             "cards": [
                 {
-                    "helpenabled": false, 
+                    "helpenabled": false,
                     "graph_id": "6a164a57-fd5d-11e6-9e3e-026d961c88e6",
                     "description": "",
                     "visible": true,
