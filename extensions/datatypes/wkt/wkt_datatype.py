@@ -6,7 +6,7 @@ wkt_widget = models.Widget.objects.get(name='wkt-widget')
 
 details = {
     'datatype': 'wkt-datatype',
-    'iconclass': 'fa fa-file-code-o',
+    'iconclass': 'fa fa-house-o',
     'modulename': 'datatypes.py',
     'classname': 'WKTDataType',
     'defaultwidget': wkt_widget,
