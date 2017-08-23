@@ -6,7 +6,7 @@ from arches.app.models.tile import Tile
 import json
 
 details = {
-    'name': 'Sample Function',
+    'name': 'Well Known Text Function',
     'type': 'node',
     'description': 'Just a sample demonstrating node group selection',
     'defaultconfig': {"selected_nodegroup":""},
