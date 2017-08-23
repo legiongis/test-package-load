@@ -18,7 +18,7 @@ By default mapbox-style layers will be loaded with the name property found in th
 ```
 
 ## load data
-To load data the target must be an arches project, rather than the arches application:
+To load data the target must be an arches project rather than the arches application:
 
 ```
 arches-project create myproject
