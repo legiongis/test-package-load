@@ -1,26 +1,27 @@
 # her-data
 
-## load data
-activate your virtual environment, then run:
-```
-./load_data.sh
-```
+## options
 
-it will prompt you for a path to your arches repo (path can be relative)
-
-be sure to run the script from the root folder of this repo
+-db : run setup_py to rebuild your database
+-ow : overwrite concepts and collections 
+-st : stage concepts and collections
+-s  : a zipfile located on github or locally
 
 ## configuration
+By default mapbox-style layers will be loaded with the name property found in the layer's style.json file. The default name for tile server layers will be the basename of the layer's xml file. For both mapbox-style and tile server layers the default icon-class will be `fa fa-globe`. To customize the name and icon-class, simply add a meta.json file to the layer's directory with the following object:
 
-here are some application settings you'll probably want to use (add to your `settings_local.py`):
 ```
-DEFAULT_MAP_Y = 53.24
-DEFAULT_MAP_X = -0.55735
-DEFAULT_MAP_ZOOM = 10
-MAP_MIN_ZOOM = 10
-MAP_MAX_ZOOM = 20
+{
+  "name": "example name",
+  "icon": "fa example-class"
+}
+```
 
-HEX_BIN_BOUNDS = (-0.6222,53.18,-0.4925,53.3)
-HEX_BIN_SIZE = 0.20
-HEX_BIN_PRECISION = 8
+## load data
+To load data the target must be an arches project, rather than the arches application:
+
+```
+arches-project create myproject
+cd myproject
+python manage.py packages -o load_package -s https://github.com/archesproject/test-package-load/archive/master.zip -db true
 ```
