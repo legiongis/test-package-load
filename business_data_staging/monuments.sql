@@ -1,3 +1,4 @@
+CREATE OR REPLACE VIEW vw_monuments AS
 with mv as (select tileid, resourceinstanceid, nodeid, ST_Union(geom) as geom, ST_GeometryType(geom) as geom_type, count(tileid) as count
 	from mv_geojson_geoms
 	group by tileid, nodeid, resourceinstanceid, ST_GeometryType(geom))
