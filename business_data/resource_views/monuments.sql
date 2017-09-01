@@ -1,4 +1,4 @@
-DROP VIEW vw_monuments;
+DROP VIEW IF EXISTS vw_monuments;
 CREATE OR REPLACE VIEW vw_monuments AS
 with mv as (select tileid, resourceinstanceid, nodeid, ST_Union(geom) as geom, ST_GeometryType(geom) as geom_type
 	from mv_geojson_geoms
