@@ -1,52 +1,25 @@
 {
     "graph": [
         {
-            "author": " GCI", 
-            "cards": [
-                {
-                    "active": true, 
-                    "cardid": "f7941166-fa10-11e6-9e3e-026d961c88e6", 
-                    "description": "Captures information about special status, protection, or privileges afforded under law.\n\nApplies to: Heritage Resource, Heritage Resource Model", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": null, 
-                    "name": "Right-HER", 
-                    "nodegroup_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
-                    "sortorder": null, 
-                    "visible": true
-                }, 
-                {
-                    "active": true, 
-                    "cardid": "f7941163-fa10-11e6-9e3e-026d961c88e6", 
-                    "description": "", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": "Define the resource's designation or protection status.", 
-                    "name": "Designation or Protection", 
-                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "sortorder": 0, 
-                    "visible": true
-                }
-            ], 
-            "cards_x_nodes_x_widgets": [], 
-            "deploymentdate": null, 
-            "deploymentfile": null, 
-            "description": "Captures information about special status, protection, or privileges afforded under law.\n\nApplies to: Heritage Resource, Heritage Resource Model", 
+            "subtitle": "Captures information about special status, protection, or privileges afforded under law.", 
+            "functions_x_graphs": [], 
+            "isresource": false, 
+            "forms_x_cards": [], 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "iconclass": "fa fa-copyright", 
             "domain_connections": [
                 {
+                    "ontology_property": "P75_possesses", 
                     "ontology_classes": [
                         "E40_Legal_Body", 
                         "E74_Group", 
                         "E39_Actor", 
                         "E21_Person"
-                    ], 
-                    "ontology_property": "P75_possesses"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P104_is_subject_to", 
                     "ontology_classes": [
                         "E75_Conceptual_Object_Appellation", 
                         "E22_Man-Made_Object", 
@@ -103,26 +76,26 @@
                         "E24_Physical_Man-Made_Thing", 
                         "E82_Actor_Appellation", 
                         "D1_Digital_Object"
-                    ], 
-                    "ontology_property": "P104_is_subject_to"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P102i_is_title_of", 
                     "ontology_classes": [
                         "E35_Title"
-                    ], 
-                    "ontology_property": "P102i_is_title_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P103i_was_intention_of", 
                     "ontology_classes": [
                         "E57_Material", 
                         "E58_Measurement_Unit", 
                         "E56_Language", 
                         "E55_Type", 
                         "S9_Property_Type"
-                    ], 
-                    "ontology_property": "P103i_was_intention_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P19_was_intended_use_of", 
                     "ontology_classes": [
                         "E15_Identifier_Assignment", 
                         "D30_Annotation_Event", 
@@ -163,10 +136,10 @@
                         "S4_Observation", 
                         "S3_Measurement_by_Sampling", 
                         "E14_Condition_Assessment"
-                    ], 
-                    "ontology_property": "P19_was_intended_use_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P92_brought_into_existence", 
                     "ontology_classes": [
                         "E12_Production", 
                         "A4_Stratigraphic_Genesis", 
@@ -184,10 +157,10 @@
                         "D12_Data_Transfer_Event", 
                         "E63_Beginning_of_Existence", 
                         "E83_Type_Creation"
-                    ], 
-                    "ontology_property": "P92_brought_into_existence"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P12_occurred_in_the_presence_of", 
                     "ontology_classes": [
                         "E15_Identifier_Assignment", 
                         "E5_Event", 
@@ -240,32 +213,32 @@
                         "S3_Measurement_by_Sampling", 
                         "E14_Condition_Assessment", 
                         "E16_Measurement"
-                    ], 
-                    "ontology_property": "P12_occurred_in_the_presence_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P123_resulted_in", 
                     "ontology_classes": [
                         "E81_Transformation"
-                    ], 
-                    "ontology_property": "P123_resulted_in"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P124_transformed", 
                     "ontology_classes": [
                         "E81_Transformation"
-                    ], 
-                    "ontology_property": "P124_transformed"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P93_took_out_of_existence", 
                     "ontology_classes": [
                         "E68_Dissolution", 
                         "E64_End_of_Existence", 
                         "E69_Death", 
                         "E81_Transformation", 
                         "E6_Destruction"
-                    ], 
-                    "ontology_property": "P93_took_out_of_existence"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P67i_is_referred_to_by", 
                     "ontology_classes": [
                         "D21_Person_Name", 
                         "E83_Type_Creation", 
@@ -417,10 +390,10 @@
                         "E94_Space", 
                         "S2_Sample_Taking", 
                         "E3_Condition_State"
-                    ], 
-                    "ontology_property": "P67i_is_referred_to_by"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P129i_is_subject_of", 
                     "ontology_classes": [
                         "D21_Person_Name", 
                         "E83_Type_Creation", 
@@ -572,10 +545,10 @@
                         "E94_Space", 
                         "S2_Sample_Taking", 
                         "E3_Condition_State"
-                    ], 
-                    "ontology_property": "P129i_is_subject_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P148_has_component", 
                     "ontology_classes": [
                         "E89_Propositional_Object", 
                         "SP4_Spatial_Coordinate_Reference_System", 
@@ -605,10 +578,10 @@
                         "SP14_Time_Expression", 
                         "I3_Inference_Logic", 
                         "D1_Digital_Object"
-                    ], 
-                    "ontology_property": "P148_has_component"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P148i_is_component_of", 
                     "ontology_classes": [
                         "E89_Propositional_Object", 
                         "SP4_Spatial_Coordinate_Reference_System", 
@@ -638,16 +611,16 @@
                         "SP14_Time_Expression", 
                         "I3_Inference_Logic", 
                         "D1_Digital_Object"
-                    ], 
-                    "ontology_property": "P148i_is_component_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P149i_identifies", 
                     "ontology_classes": [
                         "E75_Conceptual_Object_Appellation"
-                    ], 
-                    "ontology_property": "P149i_identifies"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P94_has_created", 
                     "ontology_classes": [
                         "E83_Type_Creation", 
                         "D10_Software_Execution", 
@@ -658,20 +631,20 @@
                         "D11_Digital_Measurement_Event", 
                         "E65_Creation", 
                         "D12_Data_Transfer_Event"
-                    ], 
-                    "ontology_property": "P94_has_created"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P39_measured", 
                     "ontology_classes": [
                         "D2_Digitization_Process", 
                         "D11_Digital_Measurement_Event", 
                         "E16_Measurement", 
                         "S21_Measurement", 
                         "S3_Measurement_by_Sampling"
-                    ], 
-                    "ontology_property": "P39_measured"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P140_assigned_attribute_to", 
                     "ontology_classes": [
                         "E15_Identifier_Assignment", 
                         "E16_Measurement", 
@@ -689,10 +662,10 @@
                         "E17_Type_Assignment", 
                         "S3_Measurement_by_Sampling", 
                         "E14_Condition_Assessment"
-                    ], 
-                    "ontology_property": "P140_assigned_attribute_to"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P141_assigned", 
                     "ontology_classes": [
                         "E15_Identifier_Assignment", 
                         "E16_Measurement", 
@@ -710,36 +683,36 @@
                         "E17_Type_Assignment", 
                         "S3_Measurement_by_Sampling", 
                         "E14_Condition_Assessment"
-                    ], 
-                    "ontology_property": "P141_assigned"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P48i_is_preferred_identifier_of", 
                     "ontology_classes": [
                         "E42_Identifier"
-                    ], 
-                    "ontology_property": "P48i_is_preferred_identifier_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P2i_is_type_of", 
                     "ontology_classes": [
                         "E57_Material", 
                         "E58_Measurement_Unit", 
                         "E56_Language", 
                         "E55_Type", 
                         "S9_Property_Type"
-                    ], 
-                    "ontology_property": "P2i_is_type_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P137i_is_exemplified_by", 
                     "ontology_classes": [
                         "E57_Material", 
                         "E58_Measurement_Unit", 
                         "E56_Language", 
                         "E55_Type", 
                         "S9_Property_Type"
-                    ], 
-                    "ontology_property": "P137i_is_exemplified_by"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P1i_identifies", 
                     "ontology_classes": [
                         "E51_Contact_Point", 
                         "E75_Conceptual_Object_Appellation", 
@@ -759,10 +732,10 @@
                         "SP14_Time_Expression", 
                         "http://www.opengis.net/ont/geosparql#wktLiteral", 
                         "E46_Section_Definition"
-                    ], 
-                    "ontology_property": "P1i_identifies"
+                    ]
                 }, 
                 {
+                    "ontology_property": "BM.PX_is_related_to", 
                     "ontology_classes": [
                         "S20_Physical_Feature", 
                         "E22_Man-Made_Object", 
@@ -783,16 +756,16 @@
                         "A8_Stratigraphic_Unit", 
                         "E27_Site", 
                         "E24_Physical_Man-Made_Thing"
-                    ], 
-                    "ontology_property": "BM.PX_is_related_to"
+                    ]
                 }, 
                 {
+                    "ontology_property": "L43_annotates", 
                     "ontology_classes": [
                         "D29_Annotation_Object"
-                    ], 
-                    "ontology_property": "L43_annotates"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P67_refers_to", 
                     "ontology_classes": [
                         "E89_Propositional_Object", 
                         "SP4_Spatial_Coordinate_Reference_System", 
@@ -822,10 +795,10 @@
                         "SP14_Time_Expression", 
                         "I3_Inference_Logic", 
                         "D1_Digital_Object"
-                    ], 
-                    "ontology_property": "P67_refers_to"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P129_is_about", 
                     "ontology_classes": [
                         "E89_Propositional_Object", 
                         "SP4_Spatial_Coordinate_Reference_System", 
@@ -855,22 +828,22 @@
                         "SP14_Time_Expression", 
                         "I3_Inference_Logic", 
                         "D1_Digital_Object"
-                    ], 
-                    "ontology_property": "P129_is_about"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P136_was_based_on", 
                     "ontology_classes": [
                         "E83_Type_Creation"
-                    ], 
-                    "ontology_property": "P136_was_based_on"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P71_lists", 
                     "ontology_classes": [
                         "E32_Authority_Document"
-                    ], 
-                    "ontology_property": "P71_lists"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P15_was_influenced_by", 
                     "ontology_classes": [
                         "E15_Identifier_Assignment", 
                         "D30_Annotation_Event", 
@@ -911,10 +884,10 @@
                         "S4_Observation", 
                         "S3_Measurement_by_Sampling", 
                         "E14_Condition_Assessment"
-                    ], 
-                    "ontology_property": "P15_was_influenced_by"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P17_was_motivated_by", 
                     "ontology_classes": [
                         "E15_Identifier_Assignment", 
                         "D30_Annotation_Event", 
@@ -955,26 +928,26 @@
                         "S4_Observation", 
                         "S3_Measurement_by_Sampling", 
                         "E14_Condition_Assessment"
-                    ], 
-                    "ontology_property": "P17_was_motivated_by"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P70_documents", 
                     "ontology_classes": [
                         "E32_Authority_Document", 
                         "E31_Document"
-                    ], 
-                    "ontology_property": "P70_documents"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P138_represents", 
                     "ontology_classes": [
                         "E34_Inscription", 
                         "E37_Mark", 
                         "E36_Visual_Item", 
                         "E38_Image"
-                    ], 
-                    "ontology_property": "P138_represents"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P62_depicts", 
                     "ontology_classes": [
                         "E22_Man-Made_Object", 
                         "D13_Digital_Information_Carrier", 
@@ -983,10 +956,10 @@
                         "E78_Collection", 
                         "E24_Physical_Man-Made_Thing", 
                         "E84_Information_Carrier"
-                    ], 
-                    "ontology_property": "P62_depicts"
+                    ]
                 }, 
                 {
+                    "ontology_property": "O16_observed_value", 
                     "ontology_classes": [
                         "E16_Measurement", 
                         "D2_Digitization_Process", 
@@ -995,10 +968,10 @@
                         "S19_Encounter_Event", 
                         "S4_Observation", 
                         "S3_Measurement_by_Sampling"
-                    ], 
-                    "ontology_property": "O16_observed_value"
+                    ]
                 }, 
                 {
+                    "ontology_property": "L54_is_same-as", 
                     "ontology_classes": [
                         "D21_Person_Name", 
                         "E83_Type_Creation", 
@@ -1150,10 +1123,10 @@
                         "E94_Space", 
                         "S2_Sample_Taking", 
                         "E3_Condition_State"
-                    ], 
-                    "ontology_property": "L54_is_same-as"
+                    ]
                 }, 
                 {
+                    "ontology_property": "L54i_is_same-as", 
                     "ontology_classes": [
                         "D21_Person_Name", 
                         "E83_Type_Creation", 
@@ -1305,29 +1278,29 @@
                         "E94_Space", 
                         "S2_Sample_Taking", 
                         "E3_Condition_State"
-                    ], 
-                    "ontology_property": "L54i_is_same-as"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P41_classified", 
                     "ontology_classes": [
                         "E17_Type_Assignment"
-                    ], 
-                    "ontology_property": "P41_classified"
+                    ]
                 }, 
                 {
+                    "ontology_property": "L60_documents", 
                     "ontology_classes": [
                         "D2_Digitization_Process"
-                    ], 
-                    "ontology_property": "L60_documents"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P43i_is_dimension_of", 
                     "ontology_classes": [
                         "D9_Data_Object", 
                         "E54_Dimension"
-                    ], 
-                    "ontology_property": "P43i_is_dimension_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P130_shows_features_of", 
                     "ontology_classes": [
                         "E75_Conceptual_Object_Appellation", 
                         "E22_Man-Made_Object", 
@@ -1403,10 +1376,10 @@
                         "E82_Actor_Appellation", 
                         "S13_Sample", 
                         "D1_Digital_Object"
-                    ], 
-                    "ontology_property": "P130_shows_features_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P130i_features_are_also_found_on", 
                     "ontology_classes": [
                         "E75_Conceptual_Object_Appellation", 
                         "E22_Man-Made_Object", 
@@ -1482,20 +1455,20 @@
                         "E82_Actor_Appellation", 
                         "S13_Sample", 
                         "D1_Digital_Object"
-                    ], 
-                    "ontology_property": "P130i_features_are_also_found_on"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P101i_was_use_of", 
                     "ontology_classes": [
                         "E57_Material", 
                         "E58_Measurement_Unit", 
                         "E56_Language", 
                         "E55_Type", 
                         "S9_Property_Type"
-                    ], 
-                    "ontology_property": "P101i_was_use_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "P16_used_specific_object", 
                     "ontology_classes": [
                         "E15_Identifier_Assignment", 
                         "D30_Annotation_Event", 
@@ -1536,10 +1509,10 @@
                         "S4_Observation", 
                         "S3_Measurement_by_Sampling", 
                         "E14_Condition_Assessment"
-                    ], 
-                    "ontology_property": "P16_used_specific_object"
+                    ]
                 }, 
                 {
+                    "ontology_property": "O8_observed", 
                     "ontology_classes": [
                         "E16_Measurement", 
                         "D2_Digitization_Process", 
@@ -1548,94 +1521,29 @@
                         "S19_Encounter_Event", 
                         "S4_Observation", 
                         "S3_Measurement_by_Sampling"
-                    ], 
-                    "ontology_property": "O8_observed"
+                    ]
                 }, 
                 {
+                    "ontology_property": "O11_described", 
                     "ontology_classes": [
                         "S6_Data_Evaluation"
-                    ], 
-                    "ontology_property": "O11_described"
+                    ]
                 }, 
                 {
+                    "ontology_property": "O12i_is_dimension_of", 
                     "ontology_classes": [
                         "D9_Data_Object", 
                         "E54_Dimension"
-                    ], 
-                    "ontology_property": "O12i_is_dimension_of"
+                    ]
                 }, 
                 {
+                    "ontology_property": "O24_measured", 
                     "ontology_classes": [
                         "S3_Measurement_by_Sampling", 
                         "S21_Measurement"
-                    ], 
-                    "ontology_property": "O24_measured"
+                    ]
                 }
             ], 
-            "edges": [
-                {
-                    "description": null, 
-                    "domainnode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "edgeid": "f794116e-fa10-11e6-9e3e-026d961c88e6", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
-                    "rangenode_id": "f7941169-fa10-11e6-9e3e-026d961c88e6"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "edgeid": "077f3ab6-fa11-11e6-9e3e-026d961c88e6", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
-                    "rangenode_id": "077f3ab5-fa11-11e6-9e3e-026d961c88e6"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "edgeid": "f794116f-fa10-11e6-9e3e-026d961c88e6", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
-                    "rangenode_id": "f794116a-fa10-11e6-9e3e-026d961c88e6"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "f794116a-fa10-11e6-9e3e-026d961c88e6", 
-                    "edgeid": "f794116d-fa10-11e6-9e3e-026d961c88e6", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
-                    "rangenode_id": "f7941168-fa10-11e6-9e3e-026d961c88e6"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
-                    "edgeid": "f794116b-fa10-11e6-9e3e-026d961c88e6", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by", 
-                    "rangenode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "f794116a-fa10-11e6-9e3e-026d961c88e6", 
-                    "edgeid": "f794116c-fa10-11e6-9e3e-026d961c88e6", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "name": null, 
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
-                    "rangenode_id": "f7941167-fa10-11e6-9e3e-026d961c88e6"
-                }
-            ], 
-            "forms": [], 
-            "forms_x_cards": [], 
-            "functions_x_graphs": [], 
-            "graphid": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-            "iconclass": "fa fa-copyright", 
-            "isactive": true, 
-            "isresource": false, 
-            "name": "Right-HER", 
             "nodegroups": [
                 {
                     "cardinality": "1", 
@@ -1650,142 +1558,241 @@
                     "parentnodegroup_id": "f7941164-fa10-11e6-9e3e-026d961c88e6"
                 }
             ], 
+            "author": " GCI", 
+            "deploymentfile": null, 
+            "forms": [], 
+            "version": "", 
             "nodes": [
                 {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "", 
                     "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "is_collector": true, 
-                    "istopnode": true, 
-                    "name": "Right", 
-                    "nodegroup_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
-                    "nodeid": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "", 
+                    "isrequired": false, 
+                    "datatype": "semantic", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right", 
-                    "parentproperty": ""
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "is_collector": false, 
-                    "istopnode": false, 
-                    "name": "Designation or Protection Reference", 
-                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "nodeid": "077f3ab5-fa11-11e6-9e3e-026d961c88e6", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "date", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "is_collector": false, 
-                    "istopnode": false, 
-                    "name": "Designation or Protection From Date", 
-                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "nodeid": "f7941168-fa10-11e6-9e3e-026d961c88e6", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "nodeid": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
+                    "istopnode": true, 
+                    "nodegroup_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
                     "is_collector": true, 
-                    "istopnode": false, 
-                    "name": "Protection Event", 
-                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "nodeid": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by"
+                    "config": null, 
+                    "parentproperty": "", 
+                    "name": "Right"
                 }, 
                 {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "Represents a single node in a graph", 
+                    "isrequired": false, 
+                    "datatype": "string", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier", 
+                    "nodeid": "077f3ab5-fa11-11e6-9e3e-026d961c88e6", 
+                    "istopnode": false, 
+                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "is_collector": false, 
+                    "config": null, 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "name": "Designation or Protection Reference"
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "Represents a single node in a graph", 
+                    "isrequired": false, 
+                    "datatype": "date", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
+                    "nodeid": "f7941168-fa10-11e6-9e3e-026d961c88e6", 
+                    "istopnode": false, 
+                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "is_collector": false, 
+                    "config": null, 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "name": "Designation or Protection From Date"
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "", 
+                    "isrequired": false, 
+                    "datatype": "semantic", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation", 
+                    "nodeid": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "istopnode": false, 
+                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "is_collector": true, 
+                    "config": null, 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by", 
+                    "name": "Protection Event"
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "", 
+                    "isrequired": false, 
+                    "datatype": "domain-value", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "nodeid": "f7941169-fa10-11e6-9e3e-026d961c88e6", 
+                    "istopnode": false, 
+                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "is_collector": false, 
                     "config": {
                         "options": [
                             {
-                                "id": "1d4312bc-406a-43ec-bbdd-d0e0a1bdcfe3", 
+                                "text": "NHLE Listed", 
                                 "selected": false, 
-                                "text": "NHLE Listed"
+                                "id": "1d4312bc-406a-43ec-bbdd-d0e0a1bdcfe3"
                             }, 
                             {
-                                "id": "efa119fb-da5c-4f3e-9904-475cf90ad8c8", 
+                                "text": "NHLE Scheduled", 
                                 "selected": false, 
-                                "text": "NHLE Scheduled"
+                                "id": "efa119fb-da5c-4f3e-9904-475cf90ad8c8"
                             }, 
                             {
-                                "id": "f2a9460f-f3c3-4e10-8355-3bdb76927857", 
+                                "text": "Building at Risk", 
                                 "selected": false, 
-                                "text": "Building at Risk"
+                                "id": "f2a9460f-f3c3-4e10-8355-3bdb76927857"
                             }
                         ]
                     }, 
-                    "datatype": "domain-value", 
-                    "description": "", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "is_collector": false, 
-                    "istopnode": false, 
-                    "name": "Type of Designation or Protection", 
-                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "nodeid": "f7941169-fa10-11e6-9e3e-026d961c88e6", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "name": "Type of Designation or Protection"
                 }, 
                 {
-                    "config": null, 
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "Represents a single node in a graph", 
+                    "isrequired": false, 
                     "datatype": "date", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "is_collector": false, 
-                    "istopnode": false, 
-                    "name": "Designation or Protection To Date", 
-                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "nodeid": "f7941167-fa10-11e6-9e3e-026d961c88e6", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by"
+                    "nodeid": "f7941167-fa10-11e6-9e3e-026d961c88e6", 
+                    "istopnode": false, 
+                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "is_collector": false, 
+                    "config": null, 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "name": "Designation or Protection To Date"
                 }, 
                 {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "Represents a single node in a graph", 
                     "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                    "is_collector": false, 
-                    "istopnode": false, 
-                    "name": "Timespan of Designation or Protection", 
-                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
-                    "nodeid": "f794116a-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "Represents a single node in a graph", 
+                    "isrequired": false, 
+                    "datatype": "semantic", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"
+                    "nodeid": "f794116a-fa10-11e6-9e3e-026d961c88e6", 
+                    "istopnode": false, 
+                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "is_collector": false, 
+                    "config": null, 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "name": "Timespan of Designation or Protection"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
-            "relatable_resource_model_ids": [], 
-            "reports": [], 
+            "description": "Captures information about special status, protection, or privileges afforded under law.\n\nApplies to: Heritage Resource, Heritage Resource Model", 
+            "cards": [
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "Captures information about special status, protection, or privileges afforded under law.\n\nApplies to: Heritage Resource, Heritage Resource Model", 
+                    "visible": true, 
+                    "name": "Right-HER", 
+                    "nodegroup_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
+                    "helptitle": null, 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "sortorder": null, 
+                    "cardid": "f7941166-fa10-11e6-9e3e-026d961c88e6", 
+                    "active": true, 
+                    "instructions": null
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "description": "", 
+                    "visible": true, 
+                    "name": "Designation or Protection", 
+                    "nodegroup_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "helptitle": null, 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "sortorder": 0, 
+                    "cardid": "f7941163-fa10-11e6-9e3e-026d961c88e6", 
+                    "active": true, 
+                    "instructions": "Define the resource's designation or protection status."
+                }
+            ], 
+            "edges": [
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "f794116e-fa10-11e6-9e3e-026d961c88e6", 
+                    "domainnode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "rangenode_id": "f7941169-fa10-11e6-9e3e-026d961c88e6", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "077f3ab6-fa11-11e6-9e3e-026d961c88e6", 
+                    "domainnode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "rangenode_id": "077f3ab5-fa11-11e6-9e3e-026d961c88e6", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "f794116f-fa10-11e6-9e3e-026d961c88e6", 
+                    "domainnode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "rangenode_id": "f794116a-fa10-11e6-9e3e-026d961c88e6", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "f794116d-fa10-11e6-9e3e-026d961c88e6", 
+                    "domainnode_id": "f794116a-fa10-11e6-9e3e-026d961c88e6", 
+                    "rangenode_id": "f7941168-fa10-11e6-9e3e-026d961c88e6", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "f794116b-fa10-11e6-9e3e-026d961c88e6", 
+                    "domainnode_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
+                    "rangenode_id": "f7941161-fa10-11e6-9e3e-026d961c88e6", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by", 
+                    "description": null
+                }, 
+                {
+                    "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+                    "name": null, 
+                    "edgeid": "f794116c-fa10-11e6-9e3e-026d961c88e6", 
+                    "domainnode_id": "f794116a-fa10-11e6-9e3e-026d961c88e6", 
+                    "rangenode_id": "f7941167-fa10-11e6-9e3e-026d961c88e6", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by", 
+                    "description": null
+                }
+            ], 
+            "graphid": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
+            "name": "Right-HER", 
+            "cards_x_nodes_x_widgets": [], 
             "resource_2_resource_constraints": [], 
             "root": {
-                "config": null, 
-                "datatype": "semantic", 
-                "description": "", 
                 "graph_id": "f7941160-fa10-11e6-9e3e-026d961c88e6", 
-                "is_collector": true, 
-                "istopnode": true, 
-                "name": "Right", 
-                "nodegroup_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
-                "nodeid": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
+                "description": "", 
+                "datatype": "semantic", 
                 "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right", 
-                "parentproperty": ""
+                "nodeid": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
+                "istopnode": true, 
+                "nodegroup_id": "f7941164-fa10-11e6-9e3e-026d961c88e6", 
+                "is_collector": true, 
+                "config": null, 
+                "parentproperty": "", 
+                "name": "Right"
             }, 
-            "subtitle": "Captures information about special status, protection, or privileges afforded under law.", 
-            "version": ""
+            "isactive": true, 
+            "deploymentdate": null
         }
     ], 
     "metadata": {
-        "db": "PostgreSQL 9.6.0 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
         "git hash": "7c666bd 2017-02-22 16:50:30 -0800", 
         "os": "Linux", 
+        "db": "PostgreSQL 9.6.0 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.3.1-14ubuntu2) 5.3.1 20160413, 64-bit", 
         "os version": "4.4.0-64-generic"
     }
 }
