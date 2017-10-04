@@ -25,3 +25,6 @@ arches-project create myproject
 cd myproject
 python manage.py packages -o load_package -s https://github.com/archesproject/test-package-load/archive/master.zip -db true
 ```
+
+
+## Writing a resource_model view for GIS clients
