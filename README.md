@@ -108,10 +108,14 @@ We can then define a field be referencing that tile:
 How you define your fields depends largely on what the node datatype is:
 
 A node with a string datatype:
-```name_tile.tiledata ->> '677f303d-09cc-11e7-9aa6-6c4008b05c4c' as name```
+```
+name_tile.tiledata ->> '677f303d-09cc-11e7-9aa6-6c4008b05c4c' as name
+```
 
 A node with a concept value id. The following returns the concept values label:
-```(select value from values where cast(name_tile.tiledata ->> '677f39a8-09cc-11e7-834a-6c4008b05c4c' as uuid) = valueid ) as nametype```
+```
+(select value from values where cast(name_tile.tiledata ->> '677f39a8-09cc-11e7-834a-6c4008b05c4c' as uuid) = valueid ) as nametype
+```
 
 A node with a concept-list. The following returns a concatenated string of concept value labels:
 ```
