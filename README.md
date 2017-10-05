@@ -33,26 +33,25 @@ You can add any number of database views representing your resource models for s
 
 If you plan to use the arches `export` command to export your view as a shapefile you need to be sure that your view contains 2 fields: `geom` with the geometry representing your resource instance's location and `geom_type` with the postgis geometry type of your `geom` column. 
 
-To write your view, you should start by getting a mapping file for your resource. You can do that by going to the Arches Designer page and then in the `manage` dropdown of your resource model select `Create Mapping File`. A zip file will be downloaded and within that file you will find a `.mapping` file. This file will contain all the ids that you will need to design your view.
+To write your view, you should start by getting a mapping file for your resource. You can do that by going to the Arches Designer page and then in the `manage` dropdown of your resource model select `Create Mapping File`. A zip file will be downloaded and within that file you will find your `.mapping` file. This file will contain all the ids that you will need to design your view.
 
-Below is an example of a simple resource model view. The UUID (ab74af76-fa0e-11e6-9e3e-026d961c88e6) in this example is the id of the view's resource model.
+Below is an example of a simple resource model view. If a resource instance has a tile with geojson saved to it, that tile will be represented as a record in the view along with the corresponding nodeid and tile id. A unique id (gid) is assigned to each row. If a node has more than one geometry, the geometries are combined into a multipart geometry. If a node has more than one geometry of different types, a record will be created for each type. The UUID (ab74af76-fa0e-11e6-9e3e-026d961c88e6) in the last line of this this example is the id of the view's resource model.
 
 When creating your own view, you will need to replace this UUID with your own resource model's id. You can find this UUID in your mapping file assigned to the property: `resource_model_id`.
 
 ```
-DROP VIEW IF EXISTS vw_monuments_simple;
 CREATE OR REPLACE VIEW vw_monuments_simple AS
-with mv as (select tileid, resourceinstanceid, nodeid, ST_Union(geom) as geom, ST_GeometryType(geom) as geom_type
-	from mv_geojson_geoms
-	group by tileid, nodeid, resourceinstanceid, ST_GeometryType(geom)) -- Union like geometry types within the same tile into a multipart geometry
-select row_number() over () as gid,
-    mv.resourceinstanceid,
-	mv.tileid,
-	mv.nodeid,
-	ST_GeometryType(geom) as geom_type,
-	geom
-from mv
-where (select graphid from resource_instances where mv.resourceinstanceid = resourceinstanceid) = 'ab74af76-fa0e-11e6-9e3e-026d961c88e6'
+WITH mv AS (SELECT tileid, resourceinstanceid, nodeid, ST_Union(geom) as geom, ST_GeometryType(geom) AS geom_type
+	FROM mv_geojson_geoms
+	GROUP BY tileid, nodeid, resourceinstanceid, ST_GeometryType(geom))
+        SELECT row_number() OVER () AS gid,
+        mv.resourceinstanceid,
+		mv.tileid,
+		mv.nodeid,
+		ST_GeometryType(geom) AS geom_type,
+		geom
+FROM mv
+WHERE (SELECT graphid FROM resource_instances WHERE mv.resourceinstanceid = resourceinstanceid) = 'ab74af76-fa0e-11e6-9e3e-026d961c88e6'
 ```
 
 Below is a more complete example which includes columns with tile data:
