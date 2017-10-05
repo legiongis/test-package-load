@@ -54,7 +54,7 @@ FROM mv
 WHERE (SELECT graphid FROM resource_instances WHERE mv.resourceinstanceid = resourceinstanceid) = 'ab74af76-fa0e-11e6-9e3e-026d961c88e6'
 ```
 
-Below is a more complete example which includes columns with tile data:
+Here is a more complete example which includes columns with tile data:
 
 ```
 DROP VIEW IF EXISTS vw_monuments;
@@ -88,4 +88,32 @@ left join tiles record
 		!= ''
 where (select graphid from resource_instances where mv.resourceinstanceid = resourceinstanceid) = 'ab74af76-fa0e-11e6-9e3e-026d961c88e6'
 
+```
+
+You will notice that for each node added as a column in the table, we perform a left join to the tiles table and the nodeid from which we want data. Here is an example joining to the tile containing the `record` node which has a nodeid of `677f2c0f-09cc-11e7-b412-6c4008b05c4c`.
+
+```
+left join tiles record
+        on name_tile.resourceinstanceid = record.resourceinstanceid
+        and record.tiledata->>'677f2c0f-09cc-11e7-b412-6c4008b05c4c'
+		!= ''
+```
+
+We can then define a field be referencing that tile:
+
+```
+(select value from values where cast(record.tiledata ->> '677f2c0f-09cc-11e7-b412-6c4008b05c4c' as uuid) = valueid ) as record_type
+```
+
+How you define your fields depends largely on what the node datatype is:
+
+A node with a string datatype:
+```name_tile.tiledata ->> '677f303d-09cc-11e7-9aa6-6c4008b05c4c' as name```
+
+A node with a concept value id. The following returns the concept values label:
+```(select value from values where cast(name_tile.tiledata ->> '677f39a8-09cc-11e7-834a-6c4008b05c4c' as uuid) = valueid ) as nametype```
+
+A node with a concept-list. The following returns a concatenated string of concept value labels:
+```
+array_to_string((select array_agg(v.value) from unnest(ARRAY(SELECT jsonb_array_elements_text(component.tiledata -> 'ab74afec-fa0e-11e6-9e3e-026d961c88e6'))::uuid[]) item_id left join values v on v.valueid=item_id), ',') as const_tech
 ```
