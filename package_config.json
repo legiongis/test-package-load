@@ -1,27 +1,3 @@
 {
-    "permitted_resource_relationships": [{
-        "resource2resourceid": "0c1e6d68-8f41-11e7-abd4-c4b301baab9f",
-        "resourceclassfrom_id": "2f8a59a3-fa2b-11e6-9e3e-026d961c88e6",
-        "resourceclassto_id": "bbc5cf12-fa16-11e6-9e3e-026d961c88e6"
-    }, {
-        "resource2resourceid": "0c22d133-8f41-11e7-8748-c4b301baab9f",
-        "resourceclassfrom_id": "2f8a59a3-fa2b-11e6-9e3e-026d961c88e6",
-        "resourceclassto_id": "2f8a59a3-fa2b-11e6-9e3e-026d961c88e6"
-    }, {
-        "resource2resourceid": "0c2436ba-8f41-11e7-add8-c4b301baab9f",
-        "resourceclassfrom_id": "2f8a59a3-fa2b-11e6-9e3e-026d961c88e6",
-        "resourceclassto_id": "3af584c2-fd4d-11e6-9e3e-026d961c88e6"
-    }, {
-        "resource2resourceid": "0c24cc26-8f41-11e7-afb3-c4b301baab9f",
-        "resourceclassfrom_id": "2f8a59a3-fa2b-11e6-9e3e-026d961c88e6",
-        "resourceclassto_id": "0844836f-fa1f-11e6-9e3e-026d961c88e6"
-    }, {
-        "resource2resourceid": "1efddc28-8f41-11e7-900f-c4b301baab9f",
-        "resourceclassfrom_id": "ab74afd6-fa0e-11e6-9e3e-026d961c88e6",
-        "resourceclassto_id": "ab74afd6-fa0e-11e6-9e3e-026d961c88e6"
-    }, {
-        "resource2resourceid": "1efe4233-8f41-11e7-b0ef-c4b301baab9f",
-        "resourceclassfrom_id": "ab74afd6-fa0e-11e6-9e3e-026d961c88e6",
-        "resourceclassto_id": "2f8a59a3-fa2b-11e6-9e3e-026d961c88e6"
-    }]
+    "permitted_resource_relationships": []
 }
